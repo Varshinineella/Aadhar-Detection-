@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nc: 1
 names: ['aadhaar_fraud']
 train: data/train/images
@@ -5,3 +6,18 @@ val: data/val/images
 
 
 
+=======
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['0', '1', '2', '3', '4']
+
+roboflow:
+  workspace: jizo
+  project: aadhar-card-entity-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jizo/aadhar-card-entity-detection/dataset/1
+>>>>>>> a28649f1ed80be5c660b1e2ef82d232cddbd3676

@@ -1,0 +1,5 @@
+train: ../data/images/train
+val: ../data/images/valid
+
+nc: 1
+names: ["fraud"]
