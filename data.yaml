@@ -1,0 +1,7 @@
+nc: 1
+names: ['aadhaar_fraud']
+train: data/train/images
+val: data/val/images
+
+
+
